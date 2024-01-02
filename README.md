@@ -7,6 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## About Project
+
+This project is an e-commerce platform developed using Laravel, allowing users to manage products, categories, and perform CRUD (Create, Read, Update, Delete) operations. It features functionalities such as product creation, editing, and deletion. Users can search for products by name and navigate through paginated lists. The platform also includes import and export functionalities for managing product data via CSV files.
+
+## How to run this project 
+
+Clone the Repository..
+
+Install Dependencies:
+Run: composer install
+
+Create a Copy of the Environment File:
+
+Duplicate the .env.example file: cp .env.example .env
+
+Generate Application Key:
+Run: php artisan key:generate
+Execute migrations to create necessary database tables: php artisan migrate
+
+Start the Development Server:
+Launch the Laravel development server: php artisan serve
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
