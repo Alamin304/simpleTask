@@ -35,7 +35,6 @@ class ProductController extends Controller
 
     $products = $products->paginate(5);
 
-
     return view('admin.products.list', compact('products'));
 }
 
