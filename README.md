@@ -9,6 +9,13 @@
 
 
 ## About Project
+Task 1: Class Inheritance
+Task 3: Encapsulation
+Task 4: Polymorphism
+Also, these three tasks were added in this same file please Check it out...
+
+
+Task 5: To-Do Module
 
 This project is an e-commerce platform developed using Laravel, allowing users to manage products, categories, and perform CRUD (Create, Read, Update, Delete) operations. It features functionalities such as product creation, editing, and deletion. Users can search for products by name and navigate through paginated lists. The platform also includes import and export functionalities for managing product data via CSV files.
 
